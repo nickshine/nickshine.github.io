@@ -1,2 +1,3 @@
 # nickshine.github.io
-Portfolio
+
+a.k.a. [nshine.dev](https://nshine.dev)
