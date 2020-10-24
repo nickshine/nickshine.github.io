@@ -75,11 +75,15 @@ disableKinds = ["taxonomy", "term"]
     icon = "fa fa-linkedin"
     weight = 1
     url = "https://www.linkedin.com/in/nshine/"
+    target = "_blank"
+    rel = "noreferrer"
 [[params.social]]
     name = "Github"
     icon = "fa fa-github"
     weight = 2
     url = "https://github.com/nickshine/"
+    target = "_blank"
+    rel = "noreferrer"
 # [[params.social]]
 #     name = "Gitlab"
 #     icon = "fa fa-gitlab"
@@ -89,12 +93,16 @@ disableKinds = ["taxonomy", "term"]
     name = "Acclaim"
     icon = "fa fa-certificate"
     weight = 4
-    url = "https://www.youracclaim.com/users/nicholas-shine?Subject="
+    url = "https://www.youracclaim.com/users/nicholas-shine"
+    rel = "noreferrer"
+    target = "_blank"
 [[params.social]]
     name = "Email"
     icon = "fa fa-envelope"
     weight = 5
     url = "mailto:shine.nick@gmail.com?Subject=Hi from nshine.dev"
+    rel = "noreferrer"
+    target = "_blank"
 # [[params.social]]
 #     name = "Twitter"
 #     icon = "fa fa-twitter"
