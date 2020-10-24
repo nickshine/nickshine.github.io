@@ -80,11 +80,11 @@ disableKinds = ["taxonomy", "term"]
     icon = "fa fa-github"
     weight = 2
     url = "https://github.com/nickshine/"
-[[params.social]]
-    name = "Gitlab"
-    icon = "fa fa-gitlab"
-    weight = 3
-    url = "https://gitlab.com/nickshine"
+# [[params.social]]
+#     name = "Gitlab"
+#     icon = "fa fa-gitlab"
+#     weight = 3
+#     url = "https://gitlab.com/nickshine"
 [[params.social]]
     name = "Acclaim"
     icon = "fa fa-certificate"
@@ -93,7 +93,7 @@ disableKinds = ["taxonomy", "term"]
 [[params.social]]
     name = "Email"
     icon = "fa fa-envelope"
-    weight = 4
+    weight = 5
     url = "mailto:shine.nick@gmail.com?Subject=Hi from nshine.dev"
 # [[params.social]]
 #     name = "Twitter"
