@@ -14,7 +14,7 @@ pygmentscodefencesguesssyntax = true
 
 # disqusShortname = "yourdiscussshortname"
 
-googleAnalytics = "G-FEXQ1JENTB"
+# googleAnalytics = "G-FEXQ1JENTB"
 
 disableKinds = ["taxonomy", "term"]
 
@@ -63,6 +63,8 @@ disableKinds = ["taxonomy", "term"]
 
     # Custom JS
     customJS = []
+    
+    googleAnalyticsNew = "G-FEXQ1JENTB"
 
 # [taxonomies]
 #   category = "categories"
@@ -128,10 +130,10 @@ disableKinds = ["taxonomy", "term"]
 
         [languages.en.menu]
 
-            # [[languages.en.menu.main]]
-            # name = "About"
-            # weight = 1
-            # url = "about/"
+            [[languages.en.menu.main]]
+            name = "About"
+            weight = 1
+            url = "about/"
 
             # [[languages.en.menu.main]]
             # name = "Blog"

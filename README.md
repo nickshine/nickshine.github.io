@@ -1,6 +1,6 @@
-# nickshine.github.io
+# [nshine.dev](https://nshine.dev)
 
-a.k.a. [nshine.dev](https://nshine.dev)
+---
 
 ## Publishing
 
