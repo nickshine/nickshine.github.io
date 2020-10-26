@@ -130,10 +130,10 @@ disableKinds = ["taxonomy", "term"]
 
         [languages.en.menu]
 
-            [[languages.en.menu.main]]
-            name = "About"
-            weight = 1
-            url = "about/"
+            # [[languages.en.menu.main]]
+            # name = "About"
+            # weight = 1
+            # url = "about/"
 
             # [[languages.en.menu.main]]
             # name = "Blog"

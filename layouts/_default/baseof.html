@@ -83,6 +83,10 @@
       {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
     {{ end -}}
 
+    {{ if .Site.Params.googleAnalyticsNew }}
+      {{- partial "analytics/google" . -}}
+    {{ end }}
+
     {{ if .Site.Params.enableTwemoji }}
       <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
     {{ end }}
@@ -124,10 +128,6 @@
     {{ end }}
 
     {{ template "_internal/google_analytics.html" . }}
-
-    {{ if .Site.Params.googleAnalyticsNew }}
-      {{- partial "analytics/google" . -}}
-    {{ end }}
 
     {{ if and .Site.Params.fathomAnalytics .Site.Params.fathomAnalytics.siteID }}
       {{- partial "analytics/fathom" . -}}
