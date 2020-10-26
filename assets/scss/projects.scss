@@ -8,10 +8,12 @@ $alt-bg-color-dark: #424242 !default;
 .project-flex-container {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 
   > div {
     margin: 1em;
-    flex: 1 1 auto;
+    flex: 1 1 75%;
   }
 
   .project-img {
@@ -25,6 +27,6 @@ $alt-bg-color-dark: #424242 !default;
 
   .project-description {
 
-    padding: 1em;
+    padding: 0.5em;
   }
 }

@@ -3,16 +3,19 @@
 
 .project-flex-container {
   display: flex;
-  align-items: center; }
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center; }
   .project-flex-container > div {
     margin: 1em;
-    flex: 1 1 auto; }
+    flex: 1 1 75%;
+    background-color: grey; }
   .project-flex-container .project-img {
     flex: 0 0 auto; }
     .project-flex-container .project-img > img {
       border: 2px solid #424242;
       width: 100px; }
   .project-flex-container .project-description {
-    padding: 1em; }
+    padding: 0.5em; }
 
 /*# sourceMappingURL=projects.css.map */
