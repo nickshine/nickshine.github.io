@@ -12,12 +12,14 @@ $alt-bg-color-dark: #424242 !default;
   justify-content: center;
 
   > div {
-    margin: 1em;
+    margin: 1em 0em;
     flex: 1 1 75%;
+    // background-color: grey;
   }
 
   .project-img {
     flex: 0 0 auto;
+    margin-right: 0.5em;
 
     > img {
       border: 2px solid $alt-bg-color-dark;
