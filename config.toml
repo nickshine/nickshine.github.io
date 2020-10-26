@@ -59,7 +59,7 @@ disableKinds = ["taxonomy", "term"]
     customCSS = ["css/extra.css"]
 
     # Custom SCSS
-    customSCSS = []
+    customSCSS = ["scss/projects.scss"]
 
     # Custom JS
     customJS = []
@@ -140,7 +140,7 @@ disableKinds = ["taxonomy", "term"]
             # weight = 2
             # url = "posts/"
 
-            # [[languages.en.menu.main]]
-            # name = "Projects"
-            # weight = 3
-            # url = "projects/"
+            [[languages.en.menu.main]]
+            name = "Projects"
+            weight = 1
+            url = "projects/"

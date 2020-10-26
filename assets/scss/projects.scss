@@ -1,0 +1,30 @@
+$fg-color: #212121;
+$alt-bg-color-dark: #424242 !default;
+
+.project-title {
+  margin: 1rem 0;
+}
+
+.project-flex-container {
+  display: flex;
+  align-items: center;
+
+  > div {
+    margin: 1em;
+    flex: 1 1 auto;
+  }
+
+  .project-img {
+    flex: 0 0 auto;
+
+    > img {
+      border: 2px solid $alt-bg-color-dark;
+      width: 100px;
+    } 
+  }
+
+  .project-description {
+
+    padding: 1em;
+  }
+}

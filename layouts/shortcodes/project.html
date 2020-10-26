@@ -1,0 +1,13 @@
+{{ $_hugo_config := `{ "version": 1 }` }}
+
+<div class="project-flex-container">
+  <div class="project-img">
+    <img src="{{ .Get "img" | relURL }}" {{ with .Get "alt" }}alt="{{.}}"{{ end }}>
+  </div>
+  <div class="project-description">
+    <h4 class="project-title"><a href="{{ .Get "link" }}" target="_blank" rel="noreferrer">{{ .Get "title" }}</a></h4>
+    {{ .Inner }}
+  </div>
+</div>
+
+<hr>
