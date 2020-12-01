@@ -6,6 +6,23 @@ slug: "projects"
 ## Open Source Projects
 
 {{% project
+  title="boca-chica-bot"
+  img="images/boca-chica-bot.jpg"
+  alt="boca-chica-bot"
+  link="https://github.com/nickshine/boca-chica-bot" %}}
+
+A [serverless] [Twitter Bot] written in [Go] using [AWS Lambda], [DynamoDB], and [EventBridge].
+
+[aws lambda]:https://aws.amazon.com/lambda/
+[serverless]:https://aws.amazon.com/serverless/
+[go]:https://golang.org/
+[dynamodb]:https://aws.amazon.com/dynamodb/
+[EventBridge]:https://aws.amazon.com/eventbridge/
+[twitter bot]:https://en.wikipedia.org/wiki/Twitter_bot
+
+{{% /project %}}
+
+{{% project
   title="lambda-edge-azure-auth"
   img="images/lambda-edge.png"
   alt="lambda-edge"
